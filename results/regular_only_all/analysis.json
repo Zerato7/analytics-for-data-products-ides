@@ -1,0 +1,83 @@
+{
+  "summary": [
+    {
+      "open_type": "auto",
+      "n": 1000,
+      "median": 184.8205,
+      "q25": 35.195499999999996,
+      "q75": 1195.73675,
+      "mean": 6323.446365
+    },
+    {
+      "open_type": "manual",
+      "n": 622,
+      "median": 12.059,
+      "q25": 2.15125,
+      "q75": 135.66375,
+      "mean": 1470.2598633440514
+    }
+  ],
+  "summary_log10": [
+    {
+      "open_type": "auto",
+      "n": 1000,
+      "mean": 2.379189980525229,
+      "sd": 1.0876245456865403
+    },
+    {
+      "open_type": "manual",
+      "n": 622,
+      "mean": 1.416467067489044,
+      "sd": 1.0702234208369537
+    }
+  ],
+  "inf": {
+    "welch_t_test": "TtestResult(statistic=np.float64(17.505872638333454), pvalue=np.float64(6.3618775578098045e-62), df=np.float64(1333.1362876644557))",
+    "mann_whitney": "MannwhitneyuResult(statistic=np.float64(465199.5), pvalue=np.float64(1.9954601785625834e-63))"
+  },
+  "tail": {
+    "threshold_sec": 89841.17346999995,
+    "tail_counts": {
+      "auto": 14,
+      "manual": 3
+    },
+    "total_sum": {
+      "auto": 6323446.365,
+      "manual": 914501.635
+    },
+    "top_sum": {
+      "auto": 2803842.786,
+      "manual": 414233.703
+    },
+    "percent_sum": {
+      "auto": 44.34042172823901,
+      "manual": 45.29611398671802
+    },
+    "tail_users": 16,
+    "all_users": 197,
+    "percent_tail_users": 8.121827411167512,
+    "top_user_contrib": [
+      {
+        "open_type": "auto",
+        "count": 14,
+        "sum": 2803842.786
+      },
+      {
+        "open_type": "manual",
+        "count": 3,
+        "sum": 414233.703
+      }
+    ]
+  },
+  "wilcoxon": {
+    "wilcoxon_pair_test": "WilcoxonResult(statistic=np.float64(742.0), pvalue=np.float64(1.2429109519887334e-12))",
+    "n_paired": 113,
+    "median_auto_sec": 218.92149999999998,
+    "median_manual_sec": 13.592,
+    "median_log10_diff": 0.7659347420852143
+  },
+  "bootstrap": {
+    "median_ratio_ci": "(16.106643613890522, 7.178251771172126, 30.02096670934699)",
+    "mean_log10_factor_ci": "(8.58557556244825, 4.91065993590919, 14.817169501568712)"
+  }
+}

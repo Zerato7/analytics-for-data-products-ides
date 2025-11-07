@@ -1,0 +1,83 @@
+{
+  "summary": [
+    {
+      "open_type": "auto",
+      "n": 1163,
+      "median": 271.508,
+      "q25": 46.3705,
+      "q75": 2091.7084999999997,
+      "mean": 11734.283327601031
+    },
+    {
+      "open_type": "manual",
+      "n": 649,
+      "median": 13.928,
+      "q25": 2.354,
+      "q75": 160.46,
+      "mean": 3280.955785824345
+    }
+  ],
+  "summary_log10": [
+    {
+      "open_type": "auto",
+      "n": 1163,
+      "mean": 2.5842510766291795,
+      "sd": 1.2121847346057772
+    },
+    {
+      "open_type": "manual",
+      "n": 649,
+      "mean": 1.498634783582782,
+      "sd": 1.153850676007915
+    }
+  ],
+  "inf": {
+    "welch_t_test": "TtestResult(statistic=np.float64(18.85572133408194), pvalue=np.float64(7.845241764406597e-71), df=np.float64(1396.5740076135166))",
+    "mann_whitney": "MannwhitneyuResult(statistic=np.float64(568880.5), pvalue=np.float64(6.689626006393122e-72))"
+  },
+  "tail": {
+    "threshold_sec": 193408.64071999822,
+    "tail_counts": {
+      "auto": 16,
+      "manual": 3
+    },
+    "total_sum": {
+      "auto": 13646971.51,
+      "manual": 2129340.305
+    },
+    "top_sum": {
+      "auto": 3833419.904,
+      "manual": 671850.979
+    },
+    "percent_sum": {
+      "auto": 28.089894532211858,
+      "manual": 31.552071663810448
+    },
+    "tail_users": 16,
+    "all_users": 199,
+    "percent_tail_users": 8.040201005025125,
+    "top_user_contrib": [
+      {
+        "open_type": "auto",
+        "count": 16,
+        "sum": 3833419.904
+      },
+      {
+        "open_type": "manual",
+        "count": 3,
+        "sum": 671850.979
+      }
+    ]
+  },
+  "wilcoxon": {
+    "wilcoxon_pair_test": "WilcoxonResult(statistic=np.float64(811.0), pvalue=np.float64(1.869783791819163e-12))",
+    "n_paired": 115,
+    "median_auto_sec": 234.131,
+    "median_manual_sec": 14.909,
+    "median_log10_diff": 0.7135869082018509
+  },
+  "bootstrap": {
+    "median_ratio_ci": "(15.7040042927091, 6.784160583964877, 33.59935991759858)",
+    "mean_log10_factor_ci": "(8.031097563695212, 4.305549729242763, 14.252389371678586)"
+  }
+}

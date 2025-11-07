@@ -1,0 +1,57 @@
+
+--- Summary statistics (raw seconds) ---
+| open_type   |   n |   median |    q25 |      q75 |     mean |
+|-------------|-----|----------|--------|----------|----------|
+| auto        | 986 |  173.786 | 33.443 | 1085.600 | 3569.578 |
+| manual      | 619 |   11.921 |  2.141 |  134.374 |  808.187 |
+
+--- Summary statistics (log10 scale) ---
+| open_type   |   n |   mean |    sd |
+|-------------|-----|--------|-------|
+| auto        | 986 |  2.338 | 1.039 |
+| manual      | 619 |  1.398 | 1.041 |
+
+--- Inferential tests ---
+Welch t-test on log10(duration_sec+1):
+TtestResult(statistic=np.float64(17.61782807288127), pvalue=np.float64(1.6085120933136488e-62), df=np.float64(1311.418383834485))
+Mann-Whitney on raw seconds:
+MannwhitneyuResult(statistic=np.float64(456506.5), pvalue=np.float64(6.15991585334434e-63))
+
+--- Top 1% tail diagnostics ---
+Threshold [sec]: 60278.480
+Top counts by open_type:
+open_type
+auto    17
+
+Total seconds by open_type:
+open_type
+auto      3519603.579
+manual     500267.932
+
+Top seconds by open_type:
+open_type
+auto    1285282.513
+
+Top percent by open_type:
+open_type
+auto      36.51782
+manual     0.00000
+Number of users with top 1% episodes: 12
+Total number of users: 196
+Percent wise: 6.12%
+
+Top user contributors:
+| open_type   |   count |         sum |
+|-------------|---------|-------------|
+| auto        |      17 | 1285282.513 |
+
+--- Wilcoxon Paired Test ---
+n_paired: 113
+WilcoxonResult(statistic=np.float64(798.0), pvalue=np.float64(3.918622743492655e-12))
+Median auto [sec]: 193.64
+Median manual [sec]: 13.592
+Median log10 diff: 0.7380411515928771
+
+--- Bootstrap CI ---
+(14.246615656268391, 6.8467262897951, 28.538344618724384)
+(7.955864745679531, 4.632710204452599, 13.605068167598567)

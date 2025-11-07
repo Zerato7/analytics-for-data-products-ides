@@ -1,0 +1,76 @@
+{
+  "summary": [
+    {
+      "open_type": "auto",
+      "n": 986,
+      "median": 173.786,
+      "q25": 33.44325,
+      "q75": 1085.5995,
+      "mean": 3569.5776663286
+    },
+    {
+      "open_type": "manual",
+      "n": 619,
+      "median": 11.921,
+      "q25": 2.1414999999999997,
+      "q75": 134.3735,
+      "mean": 808.1872891760905
+    }
+  ],
+  "summary_log10": [
+    {
+      "open_type": "auto",
+      "n": 986,
+      "mean": 2.338482401980003,
+      "sd": 1.039499446497704
+    },
+    {
+      "open_type": "manual",
+      "n": 619,
+      "mean": 1.3984890632794262,
+      "sd": 1.0410363942920948
+    }
+  ],
+  "inf": {
+    "welch_t_test": "TtestResult(statistic=np.float64(17.61782807288127), pvalue=np.float64(1.6085120933136488e-62), df=np.float64(1311.418383834485))",
+    "mann_whitney": "MannwhitneyuResult(statistic=np.float64(456506.5), pvalue=np.float64(6.15991585334434e-63))"
+  },
+  "tail": {
+    "threshold_sec": 60278.47984,
+    "tail_counts": {
+      "auto": 17
+    },
+    "total_sum": {
+      "auto": 3519603.579,
+      "manual": 500267.93200000003
+    },
+    "top_sum": {
+      "auto": 1285282.513
+    },
+    "percent_sum": {
+      "auto": 36.517820378088665,
+      "manual": 0.0
+    },
+    "tail_users": 12,
+    "all_users": 196,
+    "percent_tail_users": 6.122448979591836,
+    "top_user_contrib": [
+      {
+        "open_type": "auto",
+        "count": 17,
+        "sum": 1285282.513
+      }
+    ]
+  },
+  "wilcoxon": {
+    "wilcoxon_pair_test": "WilcoxonResult(statistic=np.float64(798.0), pvalue=np.float64(3.918622743492655e-12))",
+    "n_paired": 113,
+    "median_auto_sec": 193.64,
+    "median_manual_sec": 13.592,
+    "median_log10_diff": 0.7380411515928771
+  },
+  "bootstrap": {
+    "median_ratio_ci": "(14.246615656268391, 6.8467262897951, 28.538344618724384)",
+    "mean_log10_factor_ci": "(7.955864745679531, 4.632710204452599, 13.605068167598567)"
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "summary": [
+    {
+      "open_type": "auto",
+      "n": 1180,
+      "median": 285.4165,
+      "q25": 47.109,
+      "q75": 2382.6035,
+      "mean": 17464.653237288137
+    },
+    {
+      "open_type": "manual",
+      "n": 651,
+      "median": 13.998,
+      "q25": 2.3935,
+      "q75": 161.994,
+      "mean": 4640.452692780338
+    }
+  ],
+  "summary_log10": [
+    {
+      "open_type": "auto",
+      "n": 1180,
+      "mean": 2.6275867891166063,
+      "sd": 1.2557970562714176
+    },
+    {
+      "open_type": "manual",
+      "n": 651,
+      "mean": 1.5113859387606126,
+      "sd": 1.1747838623830402
+    }
+  ],
+  "inf": {
+    "welch_t_test": "TtestResult(statistic=np.float64(18.985702681050544), pvalue=np.float64(8.564507706397645e-72), df=np.float64(1417.3157465457225))",
+    "mann_whitney": "MannwhitneyuResult(statistic=np.float64(579923.5), pvalue=np.float64(4.299789204232955e-73))"
+  },
+  "tail": {
+    "threshold_sec": 273036.8106,
+    "tail_counts": {
+      "auto": 17,
+      "manual": 2
+    },
+    "total_sum": {
+      "auto": 20608290.82,
+      "manual": 3020934.703
+    },
+    "top_sum": {
+      "auto": 6961319.3100000005,
+      "manual": 891594.398
+    },
+    "percent_sum": {
+      "auto": 33.77921716459939,
+      "manual": 29.51385864496125
+    },
+    "tail_users": 16,
+    "all_users": 200,
+    "percent_tail_users": 8.0,
+    "top_user_contrib": [
+      {
+        "open_type": "auto",
+        "count": 17,
+        "sum": 6961319.3100000005
+      },
+      {
+        "open_type": "manual",
+        "count": 2,
+        "sum": 891594.398
+      }
+    ]
+  },
+  "wilcoxon": {
+    "wilcoxon_pair_test": "WilcoxonResult(statistic=np.float64(864.0), pvalue=np.float64(5.350387633590384e-12))",
+    "n_paired": 115,
+    "median_auto_sec": 240.896,
+    "median_manual_sec": 14.909,
+    "median_log10_diff": 0.7135869082018509
+  },
+  "bootstrap": {
+    "median_ratio_ci": "(16.157757059494262, 6.809974234991, 35.31833852276738)",
+    "mean_log10_factor_ci": "(8.069894028082182, 4.215901103337648, 14.777037243904351)"
+  }
+}
